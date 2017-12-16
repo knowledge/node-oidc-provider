@@ -38,3 +38,10 @@ package-lock.json
 
 # TODOs
 TODO.md
+
+.tmp/
+coverage/
+dist/
+node_modules/
+
+.idea/**/*
