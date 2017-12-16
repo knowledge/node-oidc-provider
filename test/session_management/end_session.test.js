@@ -2,7 +2,7 @@ const bootstrap = require('../test_helper');
 const sinon = require('sinon');
 const { parse: parseUrl } = require('url');
 const { expect } = require('chai');
-const JWT = require('../../lib/helpers/jwt');
+const JWT = require('../../dist/helpers/jwt');
 
 const route = '/session/end';
 

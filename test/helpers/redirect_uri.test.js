@@ -1,5 +1,5 @@
 const { expect } = require('chai');
-const redirectUri = require('../../lib/helpers/redirect_uri');
+const redirectUri = require('../../dist/helpers/redirect_uri');
 
 describe('redirectUri helper', () => {
   it('does not modify the redirect_uri when it does not have path', () => {

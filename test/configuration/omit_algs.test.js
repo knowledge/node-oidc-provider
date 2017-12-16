@@ -1,5 +1,5 @@
 const { expect } = require('chai');
-const Provider = require('../../lib');
+const Provider = require('../../dist');
 
 const fail = () => { throw new Error('expected promise to be rejected'); };
 

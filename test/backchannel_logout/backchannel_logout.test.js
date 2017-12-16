@@ -4,7 +4,7 @@ const { expect } = require('chai');
 const { parse: parseUrl } = require('url');
 const base64url = require('base64url');
 const nock = require('nock');
-const Provider = require('../../lib');
+const Provider = require('../../dist');
 
 describe('Back-Channel Logout 1.0', () => {
   before(bootstrap(__dirname));

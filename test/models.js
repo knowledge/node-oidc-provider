@@ -1,5 +1,5 @@
 const store = new Map();
-const epochTime = require('../lib/helpers/epoch_time');
+const epochTime = require('../dist/helpers/epoch_time');
 
 function grantKeyFor(id) {
   return ['grant', id].join(':');

@@ -1,4 +1,4 @@
-const Provider = require('../../lib');
+const Provider = require('../../dist');
 const { expect } = require('chai');
 const { camelCase, omit } = require('lodash');
 const util = require('util');

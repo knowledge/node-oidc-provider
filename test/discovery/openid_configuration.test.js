@@ -1,6 +1,6 @@
 const bootstrap = require('../test_helper');
 const sinon = require('sinon');
-const { InvalidRequestError } = require('../../lib/helpers/errors');
+const { InvalidRequestError } = require('../../dist/helpers/errors');
 const { expect } = require('chai');
 
 const route = '/.well-known/openid-configuration';

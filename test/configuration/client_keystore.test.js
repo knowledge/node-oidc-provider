@@ -2,8 +2,8 @@ const keystore = require('node-jose').JWK.createKeyStore();
 const moment = require('moment');
 const nock = require('nock');
 const { expect } = require('chai');
-const JWT = require('../../lib/helpers/jwt');
-const epochTime = require('../../lib/helpers/epoch_time');
+const JWT = require('../../dist/helpers/jwt');
+const epochTime = require('../../dist/helpers/epoch_time');
 const bootstrap = require('../test_helper');
 const assert = require('assert');
 

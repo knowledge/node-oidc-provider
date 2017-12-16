@@ -5,7 +5,7 @@ const url = require('url');
 const base64url = require('base64url');
 const jose = require('node-jose');
 const { privKey } = require('./encryption.config');
-const JWT = require('../../lib/helpers/jwt');
+const JWT = require('../../dist/helpers/jwt');
 
 const route = '/auth';
 

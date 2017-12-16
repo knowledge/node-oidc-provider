@@ -1,5 +1,5 @@
 const bootstrap = require('../test_helper');
-const getMask = require('../../lib/helpers/claims');
+const getMask = require('../../dist/helpers/claims');
 const { map, uniq } = require('lodash');
 const { expect } = require('chai');
 const nock = require('nock');

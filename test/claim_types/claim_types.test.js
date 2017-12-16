@@ -2,7 +2,7 @@
 
 const bootstrap = require('../test_helper');
 const { parse: parseLocation } = require('url');
-const { decode: decodeJWT } = require('../../lib/helpers/jwt');
+const { decode: decodeJWT } = require('../../dist/helpers/jwt');
 const { expect } = require('chai');
 
 describe('distributed and aggregated claims', () => {

@@ -1,9 +1,9 @@
-const Provider = require('../../lib');
+const Provider = require('../../dist');
 const bootstrap = require('../test_helper');
 const clientKey = require('../client.sig.key');
 const uuid = require('uuid/v4');
 const jose = require('node-jose');
-const JWT = require('../../lib/helpers/jwt');
+const JWT = require('../../dist/helpers/jwt');
 const { expect } = require('chai');
 
 const route = '/token';

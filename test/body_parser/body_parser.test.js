@@ -1,4 +1,4 @@
-const Provider = require('../../lib');
+const Provider = require('../../dist');
 const Koa = require('koa');
 const mount = require('koa-mount');
 const supertest = require('supertest');

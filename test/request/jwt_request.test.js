@@ -1,5 +1,5 @@
 const bootstrap = require('../test_helper');
-const JWT = require('../../lib/helpers/jwt');
+const JWT = require('../../dist/helpers/jwt');
 const sinon = require('sinon');
 const {
   expect,

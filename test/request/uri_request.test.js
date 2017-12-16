@@ -1,6 +1,6 @@
 const bootstrap = require('../test_helper');
-const RequestUriCache = require('../../lib/helpers/request_uri_cache');
-const JWT = require('../../lib/helpers/jwt');
+const RequestUriCache = require('../../dist/helpers/request_uri_cache');
+const JWT = require('../../dist/helpers/jwt');
 const sinon = require('sinon');
 const nock = require('nock');
 const { expect } = require('chai');

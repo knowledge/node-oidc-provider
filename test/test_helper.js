@@ -4,7 +4,7 @@ process.env.NODE_ENV = process.env.NODE_ENV || 'test';
 
 const { agent: supertest } = require('supertest');
 const uuid = require('uuid/v4');
-const Provider = require('../lib');
+const Provider = require('../dist');
 const { Account, TestAdapter } = require('./models');
 const { expect } = require('chai');
 const { parse } = require('url');
@@ -12,8 +12,8 @@ const path = require('path');
 const Koa = require('koa');
 const querystring = require('querystring');
 const mount = require('koa-mount');
-const epochTime = require('../lib/helpers/epoch_time');
-global.instance = require('../lib/helpers/weak_cache');
+const epochTime = require('../dist/helpers/epoch_time');
+global.instance = require('../dist/helpers/weak_cache');
 
 global.i = instance;
 

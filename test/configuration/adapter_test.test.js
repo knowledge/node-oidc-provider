@@ -1,4 +1,4 @@
-const Provider = require('../../lib');
+const Provider = require('../../dist');
 const { TestAdapter } = require('../models');
 
 const { AdapterTest } = Provider;

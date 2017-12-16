@@ -1,5 +1,5 @@
 require('../test_helper');
-const Provider = require('../../lib');
+const Provider = require('../../dist');
 const { expect } = require('chai');
 
 describe('pathFor related behaviors', () => {

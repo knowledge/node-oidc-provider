@@ -2,7 +2,7 @@ const { omit } = require('lodash');
 const bootstrap = require('../test_helper');
 const sinon = require('sinon');
 const { expect } = require('chai');
-const Provider = require('../../lib');
+const Provider = require('../../dist');
 
 describe('OAuth 2.0 Dynamic Client Registration Management Protocol', () => {
   before(bootstrap(__dirname)); // provider, agent

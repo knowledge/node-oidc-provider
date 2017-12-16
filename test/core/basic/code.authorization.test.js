@@ -2,7 +2,7 @@ const bootstrap = require('../../test_helper');
 const sinon = require('sinon');
 const querystring = require('querystring');
 const { expect } = require('chai');
-const epochTime = require('../../../lib/helpers/epoch_time');
+const epochTime = require('../../../dist/helpers/epoch_time');
 
 const route = '/auth';
 
