@@ -5,7 +5,7 @@ const server = require('http').createServer().listen(0);
 const Mocha = require('mocha');
 
 const { utils: { lookupFiles } } = Mocha;
-const mocha = new Mocha({ timeout: 5000 });
+const mocha = new Mocha({ timeout: 25000 });
 const NOOP = () => {};
 
 server.once('listening', () => {
