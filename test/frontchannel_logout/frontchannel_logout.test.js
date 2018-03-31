@@ -4,7 +4,7 @@ const { cloneDeep } = require('lodash');
 const { parse: parseUrl } = require('url');
 const url = require('url');
 const base64url = require('base64url');
-const Provider = require('../../lib');
+const Provider = require('../../dist');
 
 describe('Front-Channel Logout 1.0', () => {
   before(bootstrap(__dirname));
