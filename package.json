@@ -41,10 +41,10 @@
     "build": "babel lib -d dist --plugins transform-object-rest-spread,transform-es2017-object-entries"
   },
   "pre-commit": [
+    "lint-fix",
+    "build",
     "update-configuration",
-    "coverage",
-    "lint",
-    "build"
+    "coverage"
   ],
   "dependencies": {
     "base64url": "^2.0.0",
