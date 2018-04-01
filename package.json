@@ -31,11 +31,11 @@
   "main": "dist/index.js",
   "repository": "panva/node-oidc-provider",
   "scripts": {
-    "coverage": "nyc node ./test/run",
+    "coverage": "nyc babel-node ./test/run",
     "heroku-postbuild": "npm install mongodb@^3.0.0",
     "lint": "eslint lib example test",
     "lint-fix": "eslint lib example test --fix",
-    "test": "node ./test/run",
+    "test": "babel-node ./test/run",
     "update-configuration": "node ./docs/update-configuration && git add docs/configuration.md",
     "postinstall": "babel lib -d dist --plugins transform-object-rest-spread,transform-es2017-object-entries",
     "build": "babel lib -d dist --plugins transform-object-rest-spread,transform-es2017-object-entries"
