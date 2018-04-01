@@ -31,6 +31,7 @@
   "main": "dist/index.js",
   "repository": "panva/node-oidc-provider",
   "scripts": {
+    "pre-commit": "npm run lint-fix && npm run build && npm run update-configuration && npm run coverage",
     "coverage": "nyc babel-node ./test/run",
     "heroku-postbuild": "npm install mongodb@^3.0.0",
     "lint": "eslint lib example test",
