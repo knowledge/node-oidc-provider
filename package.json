@@ -64,6 +64,7 @@
     "oidc-token-hash": "^2.0.0",
     "raw-body": "^2.1.7",
     "request": "^2.85.0",
+    "universal-url": "^1.0.0",
     "url-parse": "^1.2.0",
     "uuid": "^3.0.0"
   },
